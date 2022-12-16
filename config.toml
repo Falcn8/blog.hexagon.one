@@ -1,4 +1,4 @@
-baseURL = 'https://blog.hexagon.one/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'hexablog'
 theme = 'archie'
