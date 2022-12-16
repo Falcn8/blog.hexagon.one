@@ -1,0 +1,41 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'hexablog'
+theme = 'archie'
+pygmentsstyle = 'monokai'
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+paginate = 3
+
+[params]
+mode = 'auto'
+useCDN = false
+subtitle = 'Tips and blogs for some computer stuff'
+
+[[params.social]]
+name = 'GitHub'
+icon = 'github'
+url = 'https://github.com/Falcn8'
+
+[[params.social]]
+name = 'Twitter'
+icon = 'twitter'
+url = 'https://twitter.com/hexaon_'
+
+
+[[menu.main]]
+name = 'Home'
+url = '/'
+weight = 1
+
+[[menu.main]]
+name = 'Posts'
+url = '/posts'
+weight = 2
+
+[[menu.main]]
+name = 'Tags'
+url = '/tags'
+weight = 3
+
+
