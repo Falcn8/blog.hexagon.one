@@ -2,7 +2,7 @@
 title: "NO_PUBKEY when running sudo apt-get update"
 date: 2022-12-16T16:21:26+09:00
 description: "I've tried a lot of solutions on the internet, but none of them worked for me. So I'm writing this post to help others who are having the same problem."
-tags: [ubuntu, linux]
+tags: [linux, ubuntu]
 ---
 
 I've tried a lot of solutions on the internet, but none of them worked for me. So I'm writing this post to help others who are having the same problem. *Btw, this is my first post!*
