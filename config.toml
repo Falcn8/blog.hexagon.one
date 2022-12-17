@@ -9,7 +9,7 @@ paginate = 3
 googleAnalytics = "G-Z2E2EL7XXH"
 
 [params]
-mode = 'auto'
+mode = 'dark'
 useCDN = false
 subtitle = 'Tips and blogs for some computer stuff'
 
