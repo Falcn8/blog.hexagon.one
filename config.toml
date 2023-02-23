@@ -11,7 +11,7 @@ googleAnalytics = "G-Z2E2EL7XXH"
 [params]
 mode = 'dark'
 useCDN = false
-subtitle = 'Tips and blogs for some computer stuff'
+subtitle = 'A developer blog'
 
 [[params.social]]
 name = 'GitHub'
