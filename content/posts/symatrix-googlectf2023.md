@@ -1,5 +1,5 @@
 ---
-title: "SYMATRIX Writeup Google CTF 2023"
+title: "Symatrix Writeup Google CTF 2023"
 date: 2023-07-09T14:21:13+09:00
 description: "I solved Symatrix, one of of the challenges on Google CTF 2023."
 tags: [ctf]
