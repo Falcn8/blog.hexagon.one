@@ -2,7 +2,7 @@
 title: "SQL injecion prevention with Python"
 date: 2022-12-17T17:15:18+09:00
 description: "Your Python SQL cursor execute code might be vulnerable to SQL injections! Here's how to prevent it."
-tags: [python, sql]
+tags: [python]
 ---
 
 Your Python SQL cursor execute code might be vulnerable to SQL injections! Here's how to prevent it.

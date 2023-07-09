@@ -2,7 +2,7 @@
 title: "RSA Cheatsheet"
 date: 2022-12-20T03:22:24-08:00
 description: "I made a RSA cheatsheet so I don't have to search up about it every time."
-tags: [crypto, rsa]
+tags: [cryptography]
 ---
 
 I made a RSA cheatsheet so I don't have to search up about it every time.
