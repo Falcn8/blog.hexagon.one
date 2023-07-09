@@ -24,7 +24,7 @@ you to write Python-like code with optional static typing, which can be
 compiled into highly optimized C/C++ extensions for improved performance".  
 
 `symatrix.png` - Notice how the image is symmetric.
-![picture of symatrix.png](/static/symatrix/symatrix.png "symatrix.png")
+![picture of symatrix.png](/symatrix/symatrix.png "symatrix.png")
 
 ## Converting Cython to Python
 
@@ -121,28 +121,29 @@ exit(1)
 I asked ChatGPT.
 
 "Explain this program in 4 sentences"  
-> The code hides binary data within an image by modifying the pixel values. It reads 
+The code hides binary data within an image by modifying the pixel values. It reads 
 binary data from a file and converts it to a binary string. Then, it iterates through 
 the pixels of the image, embedding the binary data by modifying specific pixels based 
 on certain conditions. The resulting image contains the hidden binary data.
 
-
 "What do you mean by certain conditions"  
-> By "certain conditions," I mean specific criteria or requirements that must be met 
+By "certain conditions," I mean specific criteria or requirements that must be met 
 in order to embed the binary data into the image. In the given code, the conditions 
 are:
 
-> 1. The position in the image: The code checks if it's the appropriate position to 
+1. The position in the image: The code checks if it's the appropriate position to 
 embed a bit. This is determined by the variable next_position, which ensures that 
 the bits are embedded at regular intervals.
 
-> 2. Available space in the pixel: The code checks if the pixel has space available 
+2. Available space in the pixel: The code checks if the pixel has space available 
 to embed the bit. This is determined by the function full_pixel, which checks if the 
 pixel is fully white (255 in the green and blue channels). If the pixel is full, it 
 means that no more data can be embedded in that pixel.
 
-> These conditions ensure that the binary data is embedded in a controlled manner, 
+These conditions ensure that the binary data is embedded in a controlled manner, 
 preserving the image quality while hiding the data within the pixel values.
+
+--- 
 
 Anyways, this program copies the original image to make the new image symmetric, then 
 it goes through the newly copied image and edits the pixel to add part of the flag 
@@ -204,7 +205,7 @@ def decode():
 
 decode()
 ```
-By running the decoder, the flag was outputted in `decoded_file.txt` with the data 
+By running the decoder, the flag was outputted in `decoded_file.txt` with the flag 
 `CTF{W4ke_Up_Ne0+Th1s_I5_Th3_Fl4g!}`
 
 ## Conclusion
@@ -212,6 +213,6 @@ By running the decoder, the flag was outputted in `decoded_file.txt` with the da
 It took me couple hours to solve this challenge, but I found it really fun solving it. 
 Though I'm a little sad because I couldn't get to other challenges because I didn't 
 have much time, I'm glad I was able to solve **Symatrix**. The files I used to solve 
-**Symatrix** can be found [here](/static/symatrix/index.html). Thanks for reading my first 
+**Symatrix** can be found [here](/symatrix/index.html). Thanks for reading my first 
 writeup!
 
