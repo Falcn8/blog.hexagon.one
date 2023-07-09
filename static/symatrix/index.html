@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Listing</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <style>
+        body {
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+        
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        ul {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 10px;
+            list-style-type: none;
+        }
+        
+        li a {
+            color: #000;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Files in "/static/symatrix" Directory:</h1>
+        <ul>
+            <li><a href="/static/symatrix/decoded_file.txt">decoded_file.txt</a></li>
+            <li><a href="/static/symatrix/decoder.py">decoder.py</a></li>
+            <li><a href="/static/symatrix/encoder.c">encoder.c</a></li>
+            <li><a href="/static/symatrix/encoder.py">encoder.py</a></li>
+            <li><a href="/static/symatrix/index.html">index.html</a></li>
+            <li><a href="/static/symatrix/symatrix.png">symatrix.png</a></li>
+        </ul>
+    </div>
+</body>
+</html>
