@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>crypto on hexablog</title>
+    <link>/tags/crypto/</link>
+    <description>Recent content in crypto on hexablog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Dec 2022 03:22:24 -0800</lastBuildDate><atom:link href="/tags/crypto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RSA Cheatsheet</title>
+      <link>/posts/rsacheatsheet/</link>
+      <pubDate>Tue, 20 Dec 2022 03:22:24 -0800</pubDate>
+      
+      <guid>/posts/rsacheatsheet/</guid>
+      <description>I made a RSA cheatsheet so I don&amp;rsquo;t have to search up about it every time.
+To generate a private key openssl genrsa 2024 &amp;gt; secret.key To generate a public key openssl rsa -pubout &amp;lt; secret.key &amp;gt; public.key To encrypt a plaintext openssl pkeyutl -encrypt -pubin -inkey public.key -in plaintext -out ciphertext To decrypt a ciphertext openssl pkeyutl -decrypt -inkey secret.key -in ciphertext -out plaintext </description>
+    </item>
+    
+  </channel>
+</rss>

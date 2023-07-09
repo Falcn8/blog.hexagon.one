@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on hexablog</title>
+    <link>/tags/python/</link>
+    <description>Recent content in python on hexablog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Dec 2022 17:15:18 +0900</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL injecion prevention with Python</title>
+      <link>/posts/sqlinjection/</link>
+      <pubDate>Sat, 17 Dec 2022 17:15:18 +0900</pubDate>
+      
+      <guid>/posts/sqlinjection/</guid>
+      <description>Your Python SQL cursor execute code might be vulnerable to SQL injections! Here&amp;rsquo;s how to prevent it.
+My experience I had a script that used a SQL database and I recently found out that the code was vulnerable to SQL injections. I quickly fixed the script after that, though.
+The problem I had a script that had something like this:
+domain = input() harmless, malicious = search(domain) con = pymysql.connect( db=&amp;#39;db&amp;#39;, user=&amp;#39;user&amp;#39;, passwd=&amp;#39;passwd&amp;#39;, host=&amp;#39;localhost&amp;#39; ) try: with con.</description>
+    </item>
+    
+  </channel>
+</rss>
